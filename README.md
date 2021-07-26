@@ -5,7 +5,7 @@
 
 크롤링 한 후 알고리즘을 이용해 신뢰성 있는 댓글들을 선별한 후
 
-LSTM으로 이뤄진 영화 평점 예측 모델을 사용하여 평점을 도출합니다
+BidirectionalLSTM으로 이뤄진 영화 평점 예측 모델을 사용하여 평점을 도출합니다
 
 Main.py로 작동합니다
 원하는 영화를 정확히 입력한 후
@@ -21,7 +21,7 @@ Main.py로 작동합니다
 
 
 model_predict.py:
-  영화평점 예측을 위한 LSTM
+  영화평점 예측을 위한 BidirectionalLSTM 모델
   
   
 YTVideoReviewManager.py:
@@ -37,7 +37,7 @@ youtube_env.yaml:
   
   
 전처리.ipynb:
-  평점 예측 모델을 위한 훈련데이터 전처리 파일
+  Konlpy를 이용한 훈련데이터 전처리 파일
 
 ## 실행시 주의사항
   1. Konlpy, Keras, Anaconda 가상환경, Tensorflow 시스템이 구축되어 있어야 사용이 가능합니다.
