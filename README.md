@@ -1,7 +1,7 @@
 # openSWMovieRatingProject
 오픈소스SW프로젝트 과제용 git
 
-![image](https://user-images.githubusercontent.com/81469045/126967017-5780f3ee-53cc-462a-a1a7-0b6330332e58.png)
+
 
 
 신뢰성있는 영화 평점을 위해 유튜브 영화 리뷰 영상의 댓글을
